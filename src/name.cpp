@@ -13,18 +13,8 @@ Name::Name (const Name& n) {}
 
 //Getters
 //Get de Primer Nombre
-string Name::getFirstName() const {
-    return firstName;
-}
-
-//Get de Segundo Nombre
-string Name::getSecondName() const {
-    return secondName;
-}
-
-//Get de Apellido Materno
-string Name::getMothersLastName() const {
-    return mothersLastName;
+string Name::getName() const {
+    return name;
 }
 
 //Get de Apellido Paterno
@@ -34,18 +24,8 @@ string Name::getLastName() const {
 
 //Setters
 //Set de Peimer Nombre
-void Name::setFirstName(const string& fn) {
-    firstName= fn;
-}
-
-//Set de Minuto
-void Name::setSecondName(const string& sn) {
-    secondName = sn;
-}
-
-//Set de segundo
-void Name::setMothersLastName(const string& mln) {
-    mothersLastName = mln;
+void Name::setName(const string& fn) {
+    name= fn;
 }
 
 //Set de segundo
@@ -59,17 +39,14 @@ string Name::toString() const {
     for(int i = 0; i< 64; i++) {
         Name[i] = NULL;
     }
-    sprintf(Name, "%s %s %s %s", mothersLastName, lastName, firstName, secondName);
+    sprintf(Name, "%s %s", lastName, Name);
     return Name;
 }
 
 //Operador Asignación
 Name& Name::operator = (const Name& n) {
-    firstName = n.firstName;
-    secondName = n.secondName;
-    mothersLastName = n.mothersLastName;
+    name = n.name;
     lastName = n.lastName;
-
     return *this;
 }
 

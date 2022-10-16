@@ -1,11 +1,7 @@
 #include <iostream>
-#include "..\include\secretarymenu.hpp"
+#include "../include/secretarymenu.hpp"
 
 using namespace std;
-
-
-
-
 
 int main()
 {

@@ -7,23 +7,17 @@
 class Name
 {
 private:
-    std::string firstName;
-    std::string secondName;
-    std::string mothersLastName;
+    std::string name;
     std::string lastName;
 
 public:
     Name();
     Name(const Name &);
 
-    std::string getFirstName() const;
-    std::string getSecondName() const;
-    std::string getMothersLastName() const;
+    std::string getName() const;
     std::string getLastName() const;
 
-    void setFirstName(const std::string &);
-    void setSecondName(const std::string &);
-    void setMothersLastName(const std::string &);
+    void setName(const std::string &);
     void setLastName(const std::string &);
 
     std::string toString() const;
