@@ -24,7 +24,7 @@ public:
 
     std::string toString() const;
 
-    //Time& operator = (const Time);
+    Time& operator = (const Time);
 
     bool operator == (const Time&) const;
 	bool operator != (const Time&) const;

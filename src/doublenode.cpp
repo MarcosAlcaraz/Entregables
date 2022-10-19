@@ -33,11 +33,6 @@ void DoubleNode::setData(const Agent& a) {
     data = a;
 }
 
-//Set Siguiente Nodo
-void DoubleNode::setNext(DoubleNode* p) {
-    next = p;
-}
-
 //Set del Nodo Anterior
 void DoubleNode::setNext(DoubleNode* p) {
     next = p;

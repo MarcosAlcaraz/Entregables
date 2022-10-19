@@ -180,7 +180,7 @@ DoubleNode* AgentList::getFirstPos() const
 
 DoubleNode* AgentList::getLastPos() const
 {
-    if(isEmpty)
+    if(anchor == nullptr)
     {
         return nullptr;
     }
