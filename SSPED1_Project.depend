@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1666143742 source:c:\users\ffern\onedrive\escritorio\ssped1_project\src\agent.cpp
+	<iostream>
+	"agent.hpp"
+
+1666142974 c:\users\ffern\onedrive\escritorio\ssped1_project\include\agent.hpp
+	<iostream>
+	<string>
+	"clientlist.hpp"
+	"name.hpp"
+	"time.hpp"
+
+1666143228 c:\users\ffern\onedrive\escritorio\ssped1_project\include\clientlist.hpp
+	<iostream>
+	"simplynode.hpp"
+
+1666143465 c:\users\ffern\onedrive\escritorio\ssped1_project\include\simplynode.hpp
+	<iostream>
+	<string>
+	"client.hpp"
+
+1666143174 c:\users\ffern\onedrive\escritorio\ssped1_project\include\client.hpp
+	<iostream>
+	<string>
+	"time.hpp"
+
+1666143522 c:\users\ffern\onedrive\escritorio\ssped1_project\include\time.hpp
+	<iostream>
+
+1666143347 c:\users\ffern\onedrive\escritorio\ssped1_project\include\name.hpp
+	<iostream>
+	<string>
+
+1666143715 source:c:\users\ffern\onedrive\escritorio\ssped1_project\src\clientlist.cpp
+	<iostream>
+	"clientlist.hpp"
+	"doublenode.hpp"
+
+1666143277 c:\users\ffern\onedrive\escritorio\ssped1_project\include\doublenode.hpp
+	<iostream>
+	"agent.hpp"
+
+1666143946 source:c:\users\ffern\onedrive\escritorio\ssped1_project\src\client.cpp
+	<iostream>
+	"client.hpp"
+
+1666143610 source:c:\users\ffern\onedrive\escritorio\ssped1_project\src\name.cpp
+	<iostream>
+	"name.hpp"
+
